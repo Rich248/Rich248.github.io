@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+  <!-- Briefcase background -->
+  <rect x="4" y="8" width="16" height="10" rx="2" stroke="#8b5cf6" stroke-width="2" fill="#f3e8ff"/>
+  
+  <!-- Briefcase handle -->
+  <path d="M8 8V6a2 2 0 012-2h4a2 2 0 012 2v2" stroke="#8b5cf6" stroke-width="2" fill="#f3e8ff"/>
+  
+  <!-- Business documents -->
+  <rect x="6" y="10" width="2" height="3" rx="0.3" fill="#8b5cf6" opacity="0.8"/>
+  <rect x="16" y="10" width="2" height="3" rx="0.3" fill="#8b5cf6" opacity="0.8"/>
+  
+  <!-- Security lock -->
+  <rect x="10" y="12" width="4" height="3" rx="0.5" stroke="#8b5cf6" stroke-width="1" fill="#f3e8ff"/>
+  <circle cx="12" cy="14" r="0.5" fill="#8b5cf6"/>
+  
+  <!-- Growth chart -->
+  <path d="M6 16l2-2l2 1l2-3l2 2l2-1" stroke="#8b5cf6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- Currency symbol -->
+  <text x="12" y="19" text-anchor="middle" font-size="3" fill="#8b5cf6" font-weight="bold">GH¢</text>
+  
+  <!-- People dots (employees) -->
+  <circle cx="8" cy="19.5" r="0.5" fill="#8b5cf6"/>
+  <circle cx="12" cy="19.5" r="0.5" fill="#8b5cf6"/>
+  <circle cx="16" cy="19.5" r="0.5" fill="#8b5cf6"/>
+  
+  <!-- Growth arrow -->
+  <path d="M18 6l2-2l2 2" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round" fill="#8b5cf6"/>
+  <path d="M20 4v3" stroke="#8b5cf6" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

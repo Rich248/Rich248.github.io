@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+  <!-- Cloud upload background -->
+  <ellipse cx="12" cy="12" rx="11" ry="8" stroke="#3b82f6" stroke-width="2" fill="#f0f9ff"/>
+  
+  <!-- Upload arrow with animation -->
+  <path d="M12 4v6" stroke="#10b981" stroke-width="2" stroke-linecap="round">
+    <animate attributeName="d" 
+             values="M12 4v6;M12 4v5.5;M12 4v5;M12 4v5.5;M12 4v6" 
+             dur="2s" 
+             repeat="indefinite"/>
+  </path>
+  
+  <!-- Document being uploaded -->
+  <rect x="6" y="10" width="12" height="8" rx="1" stroke="#3b82f6" stroke-width="1.5" fill="#ffffff">
+    <animate attributeName="y" 
+             values="10;8;10;8;10" 
+             dur="2s" 
+             repeat="indefinite"/>
+  </rect>
+  
+  <!-- Upload progress lines -->
+  <line x1="8" y1="12" x2="16" y2="12" stroke="#10b981" stroke-width="2" stroke-linecap="round">
+    <animate attributeName="opacity" 
+             values="0.3;1;0.3;1" 
+             dur="2s" 
+             repeat="indefinite"/>
+  </line>
+  
+  <!-- File icon -->
+  <rect x="9" y="11" width="6" height="4" rx="0.5" fill="#3b82f6"/>
+  <circle cx="12" cy="13" r="0.5" fill="#10b981"/>
+  
+  <!-- Upload particles -->
+  <circle cx="7" cy="8" r="1" fill="#10b981" opacity="0.6">
+    <animate attributeName="cy" 
+             values="8;6;8;6;8" 
+             dur="3s" 
+             repeat="indefinite"/>
+  </circle>
+  
+  <circle cx="17" cy="8" r="1" fill="#10b981" opacity="0.6">
+    <animate attributeName="cy" 
+             values="8;6;8;6;8" 
+             dur="3s" 
+             repeat="indefinite"/>
+  </circle>
+  
+  <!-- Success checkmark -->
+  <path d="M10 14l1.5 1.5l3-3" stroke="#10b981" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.8">
+    <animate attributeName="opacity" 
+             values="0;0;0.8;0.8" 
+             dur="2s" 
+             repeat="indefinite"/>
+  </path>
+  
+  <!-- Upload text -->
+  <text x="12" y="20" text-anchor="middle" font-size="2" fill="#3b82f6" font-weight="bold">UPLOAD</text>
+</svg>

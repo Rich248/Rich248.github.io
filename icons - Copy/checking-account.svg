@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+  <!-- Background circle -->
+  <circle cx="12" cy="12" r="11" stroke="#3b82f6" stroke-width="2" fill="#f0f9ff"/>
+  
+  <!-- Check mark -->
+  <path d="M8 12l3 3l7-7" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Transaction arrows -->
+  <path d="M4 6h2v2" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M20 18h-2v-2" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M6 6l-2 2l2 2" fill="#3b82f6"/>
+  <path d="M18 18l2 2l-2 2" fill="#3b82f6"/>
+  
+  <!-- Quick access dots -->
+  <rect x="3" y="3" width="2" height="2" rx="0.5" fill="#3b82f6" opacity="0.8"/>
+  <rect x="19" y="3" width="2" height="2" rx="0.5" fill="#3b82f6" opacity="0.8"/>
+  <rect x="3" y="19" width="2" height="2" rx="0.5" fill="#3b82f6" opacity="0.8"/>
+  <rect x="19" y="19" width="2" height="2" rx="0.5" fill="#3b82f6" opacity="0.8"/>
+  
+  <!-- Mobile money symbol -->
+  <rect x="16" y="14" width="2" height="3" rx="0.3" fill="#3b82f6"/>
+  <circle cx="17" cy="16.5" r="0.4" fill="#ffffff"/>
+  
+  <!-- Ghana flag accent -->
+  <rect x="20" y="8" width="1" height="8" fill="#ff0000" opacity="0.3"/>
+  <rect x="19" y="8" width="1" height="8" fill="#ffd700" opacity="0.3"/>
+  <rect x="18" y="8" width="1" height="8" fill="#00ff00" opacity="0.3"/>
+</svg>
